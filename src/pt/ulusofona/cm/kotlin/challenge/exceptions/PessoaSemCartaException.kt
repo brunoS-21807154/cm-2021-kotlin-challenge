@@ -1,4 +1,4 @@
 package pt.ulusofona.cm.kotlin.challenge.exceptions
 
-class PessoaSemCartaException(mensagem : String = "Esta pessoa não possui uma carta de condução.") : Exception(mensagem) {
+class PessoaSemCartaException(mensagem : String = "Nome da Pessoa não tem carta para conduzir o veículo indicado") : Exception(mensagem) {
 }
